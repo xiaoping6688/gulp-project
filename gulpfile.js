@@ -84,7 +84,7 @@ gulp.task("server", function() {
       return [
         proxy('/proxy',  {
           pathRewrite: {'^/proxy': ''},
-          target: Config.PROXY_URI,
+          target: Config.PROXY_URI || 'http://127.0.0.1',
           changeOrigin: true,
           onProxyReq: function (proxyReq, req, res) {
             // for (var key in req.headers) {
