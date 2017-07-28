@@ -1,5 +1,5 @@
 # gulp-project
->基于gulp自动构建项目配置
+>基于gulp自动构建项目配置，如示例项目 [jquery-bootstrap-project](https://github.com/xiaoping6688/jquery-bootstrap-project)
 
 ### 实现功能
 - 环境输出（根据当前环境生产配置）
